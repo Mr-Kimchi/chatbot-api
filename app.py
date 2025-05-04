@@ -3,7 +3,7 @@ import openai
 import os
 
 app = Flask(__name__)
-openai.api_key = os.getenv("ㅇㅇ")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 FINE_TUNED_MODEL = "ftjob-WXHgOJlfgDFSHF9JDcgwZyWS"  # Replace with your fine-tuned model ID
 DEFAULT_MODEL = "gpt-4.1-2025-04-14"
